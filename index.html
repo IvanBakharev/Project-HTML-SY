@@ -17,13 +17,13 @@
                 <nav>
                     <ul>
                         <li><a href="#vac">Вакансии</a></li>
-                        <li><a href="">Условия</a></li>
-                        <li><a href="">Требования</a></li>
+                        <li><a href="#usl">Условия</a></li>
+                        <li><a href="#trb">Требования</a></li>
                     </ul>
                 </nav>
             </div>
             <div>
-                <a href="">Подать заявку</a>
+                <a href="#zay">Подать заявку</a>
             </div>
         </div>
     </header>
@@ -42,7 +42,7 @@
                     <li>Машинное обучение</li>
                  </ul>
             </section>
-            <section>
+            <section id="usl">
                 <h2>Условия</h2>
                 <table>
                     <thead>
@@ -54,16 +54,67 @@
                         </tr>
                     </thead>
                     <tbody>
-
+                         <th>Формат работы</th>
+                         <td colspan="2">Очно или дистанционно</td>
+                         <td>Очно</td>
                     </tbody>
                     <tfoot>
                         <tr>
                             <th>Оплата</th>
-                            <td>до 50 000 Р</td>
+                            <td colspan="2">до 50 000 Р</td>
                             <td>до 100 000 Р</td>
                         </tr>
                     </tfoot>
                 </table>
+            </section>
+            <section id="trb">
+                <h2>Требования</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, 
+                    similique accusantium vel fugit nihil voluptatem distinctio. Animi ipsa optio nulla voluptatibus atque inventore,
+                     fugit in enim quod quidem doloremque, error recusandae minus odio distinctio! Minus, magnam facere asperiore quae ex possimus, 
+                     consequuntur quaerat doloribus nobis commodi eveniet architecto, minima corrupti!</p>
+            </section>
+            <section id="zay">
+                  <h2>Подать заявку</h2>
+                  <form action="" methot="get">
+                  <label for="city">Ваш город</label>
+                  <select name="city" id="city">
+                    <option value="">--Выберите город--</option>
+                    <option value="moscow">Москва</option>
+                    <option value="saintpeterburg">Санкт-Петербург</option>
+                    <option value="Kazan">Казань</option>
+                    <option value="">Нижний Новгород</option>
+                  </select>
+
+                  <label for="name">Имя</label>
+                  <input type="text" id="name" placeholder="name" requred>
+
+                  <label for="surname">Фамилия</label>
+                  <input type="text" id="surname" requred>
+
+                  <label for="mail">Email</label>
+                  <input type="email" id="mail" requred>
+
+                  <label for="tel">Телефон</label>
+                  <input type="tel" id="tel" requred>
+                      
+                  <label for="education">Уровень вашего образования</label>
+                  <fieldset>
+                    <label>
+                        <input type="checkbox" value="Среднее общее">
+                        Среднее общее
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Среднее профессиональное">
+                        Среднее профессиональное
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Высшее">
+                        Высшее
+                    </label>
+                  </fieldset>
+
+                 </form>
             </section>
         </main>
 

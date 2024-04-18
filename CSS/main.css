@@ -31,3 +31,11 @@ h5,
 h6 {
     margin: 0;
 }
+
+th {
+    background: rgb(9, 220, 228);
+}
+
+td {
+    background: rgb(223, 208, 9);
+}
