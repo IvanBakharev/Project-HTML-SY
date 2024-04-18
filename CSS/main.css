@@ -39,3 +39,7 @@ th {
 td {
     background: rgb(223, 208, 9);
 }
+
+.form {
+    margin-top: 16px;
+}
